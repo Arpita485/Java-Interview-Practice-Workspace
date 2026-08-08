@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/startingAgainFromScratch.iml" filepath="$PROJECT_DIR$/.idea/startingAgainFromScratch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startingAgainFromScratch2.iml" filepath="$PROJECT_DIR$/startingAgainFromScratch2.iml" />
     </modules>
   </component>
 </project>

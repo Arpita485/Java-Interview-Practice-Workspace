@@ -1,6 +1,7 @@
 public class TwoDArray {
 
-    public static void mian(String[] args){
+    public static void main(String[] args){
+
 
     }
 }
