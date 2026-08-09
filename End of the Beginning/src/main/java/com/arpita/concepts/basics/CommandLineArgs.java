@@ -1,4 +1,4 @@
-package com.arpita.practice.basics;
+package com.arpita.concepts.basics;
 
 public class CommandLineArgs {
     public static void main(String[] abc) {
