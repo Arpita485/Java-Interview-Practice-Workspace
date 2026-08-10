@@ -1,4 +1,4 @@
-package com.arpita.practice.basics;
+package com.arpita.Variable.DataType;
 
 public class CelsiusToFahrenheit {
     public static void main(String[] args){
