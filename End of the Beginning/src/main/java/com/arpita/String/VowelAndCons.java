@@ -1,23 +1,23 @@
 package com.arpita.String;
 
-import java.util.Locale;
-
 public class VowelAndCons {
     public static void main(String[] err) {
-    int res[] = vowelandCon();
+        int res[] = vowelandCon();
 
-    System.out.println("vowel : " + res[0]);
-    System.out.println("consonant : " + res[1]);
+        System.out.println("vowel : " + res[0]);
+        System.out.println("consonant : " + res[1]);
 
     }
+
     private static int[] vowelandCon() {
         int vow = 0;
         int cons = 0;
         String truth = "Nothing is permanent";
-        if (truth.length() > 0) {
-            for (int i = 0; i < truth.length(); i++) {
-                if (truth.charAt(i) >= 'a' && truth.charAt(i) <= 'z') {
-                    if (truth.charAt(i) == 'a' || truth.charAt(i) == 'e' || truth.charAt(i) == 'i' || truth.charAt(i) == 'o' || truth.charAt(i) == 'u') {
+        String t = truth.toLowerCase();
+        if (t.length() > 0) {
+            for (int i = 0; i < t.length(); i++) {
+                if (t.charAt(i) >= 'a' && t.charAt(i) <= 'z') {
+                    if (t.charAt(i) == 'a' || t.charAt(i) == 'e' || t.charAt(i) == 'i' || t.charAt(i) == 'o' || t.charAt(i) == 'u') {
                         vow++;
 
                     } else {
